@@ -1,0 +1,40 @@
+// Palindrome Program Using Java
+
+
+
+class Palindrome {
+
+    // Number Palindrome
+    // static boolean ispalindrome(int n) {
+    // int temp = n;
+    // int reverse = 0;
+    // while (temp != 0) {
+    // int temp1 = temp % 10;
+    // reverse = (reverse * 10) + temp1;
+    // temp = temp / 10;
+    // }
+    // if (reverse == n)
+    // return true;
+    // else
+    // return false;
+    // }
+
+    // String Palindrome
+    static boolean ispalindrome(String s) {
+        String str = s;
+        int len = str.length();
+        for (int i = 0; i < len / 2; i++) {
+            if (str.charAt(i) != str.charAt(len - i - 1))
+                return false;
+        }
+        return true;
+    }
+
+    public static void main(String args[]) {
+        String number = "121";
+        if (ispalindrome(number))
+            System.out.println("Palindrome");
+        else
+            System.out.println("Not a palindrome");
+    }
+}
