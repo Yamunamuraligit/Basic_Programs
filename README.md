@@ -2,4 +2,7 @@
 
 ## Interview Question
 ### 1.Palindrome 
+##### Means : For the given number, if you reverse the number you get the same number then it is called Palindrome.
+##### Example : number = 121 , After reverse you get the same number then it is called Palindrome number. 
+    
 
