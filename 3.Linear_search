@@ -1,0 +1,16 @@
+// Linear Search 
+//Search element is compared with the each element in the list
+
+pos = -1
+def search(array,n):
+    for i in range(len(array)):
+        if array[i] == n:
+            globals()['pos'] = i
+            return True
+    return False
+array = [1,2,3,4,5]
+n = 4
+if search(array,n):
+    print("The value found in list at",pos+1)
+else:
+    print("The value not found in the list")
