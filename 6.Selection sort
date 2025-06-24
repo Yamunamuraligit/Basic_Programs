@@ -1,0 +1,16 @@
+#Selection sort
+
+def sort(nums):
+    for i in range(len(nums)):
+        minpos = i
+        for j in range(minpos,len(nums)):
+            if nums[j] < nums[minpos]:
+                minpos = j
+
+        temp = nums[i]
+        nums[i] = nums[minpos]
+        nums[minpos] =temp
+
+nums = [4,1,8,2]
+sort(nums)
+print(nums)
