@@ -8,3 +8,6 @@
 ### 2. Valid IP Address
 ##### We are identifying, the vaild IP Address from the given string.
 
+### 3. linear search
+#### Comparing the search element with each element in the list
+
