@@ -16,3 +16,5 @@
 #### Based on the division, we are searching the element.
 
 ### 5.Bubble sort
+
+### 6.Selection sort
