@@ -9,5 +9,10 @@
 ##### We are identifying, the vaild IP Address from the given string.
 
 ### 3. linear search
-#### Comparing the search element with each element in the list
+#### Comparing the search element with each element in the list.
+
+### 4.Binary Search
+#### Binary Search works only with the sorting elements.In this we are dividing the list into halfs based on the mid values.
+#### Based on the division, we are searching the element.
+
 
