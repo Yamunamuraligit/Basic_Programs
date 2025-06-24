@@ -1,0 +1,24 @@
+# Binary Search works only with the Sorted values
+pos = -1
+def search(list,n):
+    l =0
+    u = len(list) -1
+    while l<=u :
+        mid = (l+u) //2
+        if list[mid] == n:
+            globals()['pos'] = mid
+            return True
+        else:
+            if list[mid] < n :
+                l = mid+1
+            else:
+                u = mid-1
+    return False
+
+list_1 = [34,12,78,22,90]
+list_1.sort()
+n = 90
+if search(list_1,n):
+    print("Found at ",pos+1)
+else:
+    print("Not found")
