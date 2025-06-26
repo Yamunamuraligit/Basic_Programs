@@ -18,3 +18,5 @@
 ### 5.Bubble sort
 
 ### 6.Selection sort
+
+### 7.Remove duplicates in list
